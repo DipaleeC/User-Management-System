@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+body{
+	margin:0;
+	height:100em;
+	display: flex;
+	align-items:center;
+	background-color: gray;
+	
+}
+
+.container{
+	margin: auto;
+	
+}
+
+button {
+	padding: 18px 60px;
+	margin: 20px;
+	font-size: 1em;
+	font-family: sans-serif;
+	font-weight: bold;
+	cursor: pointer;
+	border: none;
+}
+
+.user:hover {
+	background-color: red;
+	box-shadow: 0px 0px px;
+}

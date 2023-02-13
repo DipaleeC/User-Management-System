@@ -1,0 +1,123 @@
+
+<html>
+<head>
+
+<style>
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.container img {
+  width: 100px;
+  height: auto;
+  
+}
+
+.container .btn {
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 20px;
+  font-weight:bold;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  
+}
+
+.container .btn1 {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 20px;
+   font-weight:bold;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+  color: white;
+  
+}
+.container .btn1:hover {
+  background-color: black;
+  color: white;
+  
+}
+.body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.container .u{
+position: absolute;
+   top: 46%;
+  left: 55%;
+  font-weight: bolder;
+  font-size: x-large;
+  color: white;
+}
+
+.container .u1{
+position: absolute;
+top: 46%;
+  left: 35%;
+  font-size: x-large;
+  color: white;
+}
+
+.container .hed{
+position:absolute;
+font-size:48;
+left:10%;
+right:10%;
+color: white;
+
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="container">
+<h1 class="hed"><marquee>USER MANAGEMENT SYSTEM</marquee></h1>
+  <img src="Images/it.jpg" alt="Snow" style="width:100%">
+   <form class="login-form" action="WelcomController" method="post">
+        <h3 class="u">USER SIGNUP</h3>
+        <a href="RegisterController"><button class="btn" name="user">Signup</button></a>  
+           
+        </form>
+        <form class="Login-form" action="WelcomController" method="post">
+		<h3 class="u1">ADMIN LOGIN</h3>
+		<a href="adminpage.html" ><button class="btn1" name="admin">Login</button></a>
+		</form>
+   
+</div>
+
+</body>
+</html>
+
+
